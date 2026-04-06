@@ -6,12 +6,6 @@ A Java-based hotel room booking simulation application developed as part of the 
 
 BookMyStayApp simulates a hotel room reservation system that handles room inventory management, booking requests, add-on services, error handling, concurrent bookings, booking cancellations, and data persistence. Each use case is developed on its own Git branch and merged into `main` via pull requests.
 
-## Tech Stack
-
-- **Language:** Java
-- **Concepts:** OOP, Collections, Multithreading, File I/O, Serialization
-- **Version Control:** Git & GitHub (GitFlow)
-- **IDE:** Any standard Java IDE (VS Code, IntelliJ IDEA, Eclipse)
 
 ## Use Cases
 
@@ -30,38 +24,6 @@ BookMyStayApp simulates a hotel room reservation system that handles room invent
 | `uc11` | UC11 - Concurrent Booking Simulation | Thread-safe concurrent booking using synchronization |
 | `uc12` | UC12 - Data Persistence & System Recovery | File-based persistence and state recovery on restart |
 
-## Getting Started
-
-### Prerequisites
-
-- Java JDK 11 or higher
-- Git
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/Devarasetty-Pratikesh/BookMyStayApp.git
-cd BookMyStayApp
-```
-
-### Run a Specific Use Case
-
-Switch to the desired branch and compile the Java file:
-
-```bash
-git checkout uc1
-javac src/*.java
-java -cp src Main
-```
-
-## Project Structure
-
-```
-BookMyStayApp/
-├── src/
-│   └── *.java        # Java source files for each use case
-└── README.md
-```
 
 ## Key Concepts Covered
 
@@ -72,12 +34,3 @@ BookMyStayApp/
 - **Exception Handling** - Robust error handling and input validation
 - **GitFlow Workflow** - Feature branches, pull requests, and merges
 
-## Author
-
-**Devarasetty Pratikesh**  
-SRM University, Kattankulathur  
-SRM STEP Program 2026
-
-## License
-
-This project is developed for academic purposes under the SRM STEP Program.
